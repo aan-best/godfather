@@ -864,7 +864,7 @@ section {
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.1s;
   background: #1a1814;
 }
 
@@ -894,6 +894,7 @@ section {
   background: #cda45e;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  transition: ease-in-out 0.3s;
 }
 
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
@@ -1758,4 +1759,10 @@ h1,h2,h3,h4,h5,h6{
 .testimonial-item p{
 
   height: 200px;
+}
+
+@media (max-width: 610px) {
+  .wel-top {
+    margin-right: 90px;
+  }
 }
