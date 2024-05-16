@@ -1,10 +1,4 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-// یافتن المان مورد نظر
+
 const targetNode = document.querySelector('.error-message');
 
 // تعریف تابع callback
@@ -12,7 +6,7 @@ const mutationCallback = function(mutationsList, observer) {
     for(const mutation of mutationsList) {
         if (mutation.type === 'attributes' && mutation.attributeName === 'class' && targetNode.classList.contains('d-block')) {
             // انجام عملیات مورد نظر
-            targetNode.textContent = " نشد که بشود";
+            targetNode.textContent = "  متاسفانه ارسال نشد!";
         }
     }
 };
