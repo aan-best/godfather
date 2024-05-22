@@ -1,4 +1,13 @@
+/**
+* Template Name: Restaurantly - v3.1.0
+* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 *{
   direction: rtl;
   font-family: Lalezar, system-ui !important;
@@ -1755,6 +1764,6 @@ h1,h2,h3,h4,h5,h6{
 
 @media (max-width: 610px) {
   .wel-top {
-    margin-right: 70px;
+    margin-right: 77px;
   }
 }
