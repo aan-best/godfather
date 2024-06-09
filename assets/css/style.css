@@ -1,13 +1,9 @@
-/**
-* Template Name: Restaurantly - v3.1.0
-* Template URL: https://bootstrapmade.com/restaurantly-restaurant-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+.plyr--video .plyr__controls {
+  direction: ltr !important;
+}
+.plyr__progress input[type=range] {
+  direction: ltr !important;
+}
 *{
   direction: rtl;
   font-family: Lalezar, system-ui !important;
@@ -668,7 +664,7 @@ section {
 }
 
 .section-bg {
-  background-color: #1a1814;
+  background-color: #ffffff;
 }
 
 .section-title {
@@ -681,9 +677,9 @@ section {
   padding: 0;
   line-height: 1px;
   margin: 0 0 5px 0;
-  letter-spacing: 2px;
+  
   text-transform: uppercase;
-  color: #aaaaaa;
+  color: #000000;
   font-family: "Poppins", sans-serif;
 }
 
@@ -692,7 +688,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0,0, 0.2);
   margin: 4px 10px;
 }
 
@@ -769,7 +765,7 @@ section {
 
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -919,7 +915,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color: #000000;
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -969,11 +965,11 @@ section {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #1a1814;
+  
   position: relative;
   z-index: 3;
   font-weight: 700;
-  color: white;
+  color: rgb(0, 0, 0);
   transition: 0.3s;
 }
 
@@ -982,12 +978,13 @@ section {
 }
 
 .menu .menu-content span {
-  background: #1a1814;
+  background: none;
   position: relative;
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #000000;
+  border-radius: 5px;
 }
 
 .menu .menu-ingredients {
@@ -995,7 +992,7 @@ section {
   font-style: italic;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(16, 15, 15, 0.5);
 }
 
 /*--------------------------------------------------------------
@@ -1632,14 +1629,14 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Playfair Display", serif;
-  color: #fff;
+  color: #0b0b0b;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #28251f;
-  color: #fff;
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1652,14 +1649,14 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #cda45e;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #000000;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1692,7 +1689,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  color: #000000;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
